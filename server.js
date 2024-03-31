@@ -5,13 +5,6 @@ const cloudinary = require('cloudinary');
 const cors = require('cors');
 dotenv.config();
 
-const corsOptions = {
-    origin: '*',
-    credentials: true,            //access-control-allow-credentials:true
-    optionSuccessStatus: 200
-}
-app.use(cors(corsOptions));
-
 //handling uncaught exception
 process.on('uncaughtException', (err) => {
     console.log(`Uncaught Exception: ${err}`);
