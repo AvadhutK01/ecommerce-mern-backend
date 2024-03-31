@@ -117,8 +117,7 @@ exports.forgetPassword = catchErrors(async (req, res, next) => {
                         <a class="btn btn-primary" href="${resetPasswordUrl}" role="button">Reset Password</a>
                         <hr class="my-4">
                         <p class="lead">If you did not request this, please ignore this email.</p>
-                        <p class="lead">Thank you,</p>
-                        <p class="lead">Your Company Name</p>
+                        <p class="lead">Thank you</p>
                     </div>
                 </div>
             </body>
